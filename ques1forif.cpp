@@ -5,11 +5,10 @@ int main(){
     int n;
     cout<<"Enter the value of n"<<endl;
     cin>>n;
-    if(n%2==0 or n%4==0){
-        cout<<"even"<<endl;
+    int sum=0;
+    for(int i=1;i<=n;i++){
+        sum=sum+i;
     }
-    else{
-        cout<<"odd"<<endl;
-    }
+    cout<<"The sum of first n numbers is "<<sum<<endl;
     return 0;
 }
